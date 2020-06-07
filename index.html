@@ -1,0 +1,307 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+    <body>
+        <!--   CONTENT-WRAPPER   -->
+        <div class="content">
+            <header>
+                <!-- Top navbar -->
+                <nav class="navbar top-nav navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="navbar-nav social">
+                                    <li class="nav-item"><a href="#" class="nav-link insta"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link fac"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link you"><i class="fab fa-youtube"></i></a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link pin"><i class="fab fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="navbar-nav right">
+                                    <li class="nav-item dropdown" data-toggle="tooltip" title="User">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="far fa-user"></i>
+                                        </a>
+                                        <!-- User Not Logged In -->
+                                        <!--div class="dropdown-menu not-loged" aria-labelledby="navbarDropdown">
+                                            <a href="login.html" class="dropdown-item btn log">Login</a>
+                                            <span class="d-block">OR</span>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item btn out">Creat an account</a>
+                                        </div-->
+                                        <!-- IF User Logged In OR Register -->
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <span>Account</span>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="profile.html"><i class="fas fa-cog"></i>settings</a>
+                                            <a class="dropdown-item" href="orders.html"><i class="fas fa-shopping-basket"></i>Orders</a>
+                                            <a class="dropdown-item" href="wishlist.html"><i class="far fa-heart"></i>Favorites</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item btn" href="#"><i class="fas fa-sign-out-alt"></i>Log Out</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item" data-toggle="tooltip" data-placement="left" title="WishList">
+                                        <a class="nav-link count-wrap" href="wishlist.html"><i class="far fa-heart"></i><span class="count">0</span></a>
+                                    </li>
+                                    <li class="nav-item cart" data-toggle="tooltip" title="Shopping-cart">
+                                        <a class="nav-link count-wrap" href="shopping-cart.html">
+                                            <i class="fas fa-shopping-cart"></i><span class="count">0</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item dropdown lang">
+                                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">EN</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">EN</a></li>
+                                                <li> <a href="#">AR</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="umbrella"><img src="img/shop-umberella.svg" alt=""></div>
+                <!-- Bottom Navbar -->
+                <div class="logo">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="cake-tools.html" class="btn category"><span>cake tools</span><img src="img/buttom-Pink.svg" alt=""></a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="index.html" class="logo-img"><img src="img/Towipi-logo.svg" alt="Logo"></a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="party-supplies.html" class="btn category"><span>party supplies</span><img src="img/buttom-Pink.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bottom-nav">
+                    <div class="container">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link category"><Span>home</Span><img src="img/buttom-baby-blue.svg" alt=""></a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link category"><span>about us</span><img src="img/buttom-baby-blue.svg" alt=""></a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link category"><span>contact us</span><img src="img/buttom-baby-blue.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search for products..." aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </header>
+
+            <!-- Slider Section -->
+            <div class="slider">
+                <div class="container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- services Section -->
+            <div class="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="service">
+                                <i class="fa fa-bus"></i>
+                                <h5>customer service</h5>
+                                <p>you will get support and help to get your order</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service">
+                                <i class="fa fa-video"></i>
+                                <h4>viseo tutorial</h4>
+                                <p>we explain to you how to use our products</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service">
+                                <i class="fa fa-shipping-fast"></i>
+                                <h4>deliver on time</h4>
+                                <p>we deliver your order on time</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service">
+                                <i class="fa fa-money-bill-alt"></i>
+                                <h5>many payment options</h5>
+                                <p>we offer many local and international payment methods</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- customer pictures section -->
+            <div class="slider pic">
+                <div class="container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/cus-pic1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/cus-pic1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/cus-pic1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/cus-pic1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/cus-pic1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- customer reviews section -->
+            <div class="slider rev">
+                <div class="container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/cus-rev1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/cus-rev1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/cus-rev1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--   FOOTER   -->   <!--   FOOTER   -->   <!--   FOOTER   -->
+        <footer>
+            <div class="main-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="logo-footer" src="img/Towipi-logo.svg" alt="logo">
+                            <h3>FOLLOW US | CONTACT US</h3>
+                            <ul class="navbar-nav social">
+                                <li class="nav-item"><a href="#" class="nav-link"><img src="img/instagram-footer.svg" alt=""></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"><img src="img/facebook-footer.svg" alt=""></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"><img src="img/youtube-footer.svg" alt=""></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"><img src="img/pinterest-footer.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="navbar-nav links">
+                                <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Delivery & Returns</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Terms & Conditions</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                            </ul>
+                            <div class="payment-options">
+                                <div>
+                                    <img src="img/visa.svg" alt="">
+                                    <img src="img/fawry.svg" alt="">
+                                </div>
+                                <div>
+                                    <img src="img/master.svg" alt="">
+                                    <img src="img/paypal.svg" alt="">
+                                </div>
+                                <div>
+                                    <img src="img/cash.svg" alt="">
+                                    <img src="img/vodafone.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <p class="copy">Copyright &copy; 2020 towipi.com All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+        
+        <script src="https://www.google-analytics.com/analytics.js" async></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+                        
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

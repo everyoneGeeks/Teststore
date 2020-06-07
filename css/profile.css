@@ -1,0 +1,63 @@
+.profile-info .user-prief{
+    display: flex;
+    align-items: center;
+    background-color: #F6F9FC;
+    padding: 1.5rem;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.profile-info .user-prief img{
+    width: 90px;
+    height: 90px;
+    border: 3px solid #fff;
+    margin-right: 10px;
+}
+.profile-info .user-prief .user-info>a{
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(0,0,0,0.15);
+    padding: .425rem 1rem;
+    font-size: .8125rem;
+    line-height: 1.5;
+    border-radius: .1875rem;
+    color: #4b566b;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.profile-info .user-prief .user-info>a:hover{
+    box-shadow: none;
+}
+.profile-info .user-prief .user-info>a .fa-edit{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+
+.profile-info form label{
+    color: #373f50;
+    padding-top: .0625rem;
+    font-size: .875rem;
+}
+.profile-info form input{
+    padding: .625rem 1rem;
+    font-size: .9375rem;
+    color: #4b566b;
+    border: 1px solid #e3e9ef;
+    border-radius: .3125rem;
+    box-shadow: 0 0 0 0 transparent;
+    transition: border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+}
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #F6F9FC;
+}
+.form-control:disabled:hover,
+.form-control[readonly]:hover{
+    cursor: not-allowed;
+}
+.profile-info form .btn{
+    background-color: #f495be;
+    color: #fff;
+    float: right;
+}
+.profile-info form .btn:hover{
+    background-color: #FE4344;
+}

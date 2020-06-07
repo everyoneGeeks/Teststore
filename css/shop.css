@@ -1,0 +1,79 @@
+.cart-details .shop-sidebar{
+    margin-left: 0;
+}
+.cart-details .shop-sidebar h4{
+    text-align: left;
+    color: #373f50;
+}
+.categories{
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #e3e9ef;
+}
+.categories .content-bar .head-bar{
+    cursor: pointer;
+}
+.categories .content-bar .head-bar h3{
+    color: #4b566b;
+    padding-bottom: 10px;
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+.categories .content-bar .head-bar:hover h3{
+    color: #f495be;
+}
+.categories .content-bar .head-bar h3 .fa-angle-down{
+    position: absolute;
+    right: 0;
+}
+.categories .content-bar .bar-content{
+    display: none;
+}
+.categories .content-bar .bar-content form.search{
+    margin: 0;
+}
+.categories .content-bar .bar-content form .form-control{
+    padding: .275rem .75rem;
+    font-size: .75rem;
+    margin-bottom: 1rem;
+}
+.categories .content-bar .bar-content form.search a{
+    margin-top: -.5rem !important;
+}
+.categories .content-bar .bar-content form .fa-search{
+    font-size: .75rem;
+}
+.categories .content-bar .bar-content ul li{
+    padding-left: .75rem;
+    margin-bottom: .375rem;
+    color: #4b566b;
+    font-size: .875rem;
+    display: flex;
+    justify-content: space-between;
+}
+.categories .content-bar .bar-content ul li a{
+    color: #4b566b;
+    transition: all .3s ease-in-out;
+}
+.categories .content-bar .bar-content ul li a:hover{
+    color: #f495be;
+    text-decoration: none;
+}
+.price-range{
+    margin-top: 1.5rem;
+}
+.price-range .input-group-prepend .input-group-text{
+    background-color: #fff;
+    color: #4b566b;
+    padding: 6.8px 12px;
+    font-size: 13px;
+}
+.price-range input.form-control{
+    padding: 6.8px 12px;
+    height: calc(1.5em + .85rem + 2px);
+    font-size: 13px;
+}
+.cart-details .product-cards{
+    margin-top: 3rem;
+}

@@ -1,0 +1,28 @@
+.table thead th{
+    color: #373f50;
+}
+.table tbody tr:hover{
+    background-color: #f6f9fc;
+}
+.table th, .table td {
+    padding: 1rem .75rem;
+    vertical-align: top;
+    border-top: 1px solid #e3e9ef;
+}
+.table td{
+    font-size: 14px;
+}
+.table th a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #4b566b;
+    transition: all .3s ease-in-out;
+}
+.table th a:hover{
+    text-decoration: none;
+    color: #f495be;
+}
+.table td .status{
+    font-size: 12px;
+    font-weight: normal;
+}

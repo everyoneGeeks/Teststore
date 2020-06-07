@@ -1,0 +1,64 @@
+.addresses-table tr th:last-child,
+.addresses-table tr td:last-child{
+    text-align: center;
+}
+.addresses-table .btn{
+    color: #fff;
+    background-color: #fe696a;
+    float: right;
+    padding: 10px 22px;
+}
+.addresses-table .btn:hover{
+    background-color: #FE4344;
+}
+
+.modal .modal-header{
+    border-color: #e3e9ef;
+}
+.modal .modal-body form{
+    margin-bottom: 2rem;
+}
+.modal .modal-body label{
+    color: #373f50;
+    padding-top: .0625rem;
+    font-size: .875rem;
+}
+.modal .modal-body input{
+    padding: .625rem 1rem;
+    font-size: .9375rem;
+    color: #4b566b;
+    border: 1px solid #e3e9ef;
+    border-radius: .3125rem;
+    box-shadow: 0 0 0 0 transparent;
+    transition: border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+}
+.modal .modal-footer .btn{
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 100%;
+}
+.modal .modal-footer .btn.close{
+    color: #4b566b;
+    font-weight: normal;
+    background-color: #f3f5f9;
+}
+.modal .modal-footer .btn.close:hover{
+    background-color: #DAE0EC;
+}
+.modal .modal-footer .btn.add{
+    color: #fff;
+    background-color: #fe696a;
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(254,105,106,0.9);
+}
+.modal .modal-footer .btn.add:hover{
+    background-color: #FE4344;
+    box-shadow: none;
+}
+
+
+@media (min-width: 992px){
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+}
